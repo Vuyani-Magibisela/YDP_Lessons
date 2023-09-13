@@ -1,5 +1,14 @@
-.spacing{
+body{
+    margin: 0 auto;
+}
+
+.spacing {
     margin-left: 20em;
 }
+.submit{
+    padding-top: 5em;
+    margin-bottom: 5em;
+}
+
 
 
