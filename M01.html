@@ -1,19 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module one</title>
+    <title>Module One</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
+     <!-- Side Navigation -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+        <h1 class="w3-xxxlarge w3-text-theme">Python Lesson Exercises</h1>
+        <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+            <a href="PyResources.html" class="w3-bar-item w3-button">Usefull Python Resources</a>
+            <a href="M01.html" class="w3-bar-item w3-button">Module One</a>
+            <a href="M02.html" class="w3-bar-item w3-button">Module Two</a>
+            <a href="M03.html" class="w3-bar-item w3-button">Module Three</a>
+    </nav>
+    
+    <!-- Header -->
+    <header class="w3-container w3-theme w3-padding" id="myHeader">
+      <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+    
+      <div class="w3-center">
+      <h4>YDP Python Lessons</h4>
+      <h1 class="w3-xxxlarge w3-animate-bottom">YDP Python Lesson Exercises</h1>
+        <div class="w3-padding-32">
+           <a href="index.html"> <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">Exercises</button></a>
+         </div>
+      </div>
+    </header>
 
+  <div id="container">
+  <article id="e60cc7d5-656f-4674-a736-e44dcabd4b8d" class="page sans">
+    <header>
+      <h1 class="page-title">Module 1</h1>
+      <p class="page-description"></p>
+    </header>
+    
+    <div class="page-body">
+      <p id="2714d5b3-e9a3-4454-a5bd-40b1547b76b5" class=""><strong>What is a Computer Program:</strong></p>
+        
+        <ul id="13cfdf8c-41f8-4a1e-838c-8d831b8e8ee1" class="bulleted-list">
+          <li style="list-style-type:disc">A computer program is essential for making a computer usable.</li>
+        </ul>
+        
+        <ul id="73630845-cc8b-49de-8c27-65c68222c890" class="bulleted-list">
+          <li style="list-style-type:disc">Computers perform simple operations quickly, such as addition and division.</li>
+        </ul>
 
+        <ul id="e9fb2291-0fcf-47f4-b571-77b4446144d5" class="bulleted-list">
+          <li style="list-style-type:disc">Computers need instructions to perform tasks like calculating average speed.</li>
+        </ul>
 
-  
-  <div class="w3-center submit">
-    <h2>Submit your exercise files below</h2>
-    <a href="https://forms.gle/DTuneu8v7tFYyMqa7" class="w3-button w3-theme">Submit</a>
-  </div>
+        <ul id="f6c213cc-38f0-405a-b5b8-bcb200a69050" class="bulleted-list">
+          <li style="list-style-type:disc">These instructions form a program.</li>
+        </ul>
+
+        <p id="6108f35e-b34a-460a-925c-83720da0a9c6" class="">
+          <strong>Natural Languages vs. Programming Languages:</strong>
+        </p>
+        
+        <ul id="df91d224-e8ea-4c2d-9dbd-88a90f506a2e" class="bulleted-list">
+          <li style="list-style-type:disc">A language is a means for expressing thoughts.</li>
+        </ul>
+        
+        <ul id="abd186c9-4184-4ce7-b776-dcb32d89238a" class="bulleted-list">
+          <li style="list-style-type:disc">Computers understand a simple set of commands.</li>
+        </ul>
+        
+        <ul id="f6977d42-fd7f-417f-a8c3-0ce2d5b99f44" class="bulleted-list"><li style="list-style-type:disc">These commands form an instruction list (IL).</li></ul><ul id="69ede3bf-63fe-4498-905d-d0b05d71bad4" class="bulleted-list"><li style="list-style-type:disc">ILs are developed by humans and are not natural languages.</li></ul><p id="94be2ad4-bcea-4b83-bc68-ba901ded1a1b" class=""><strong>What Makes a Language:</strong></p><ul id="0ec10249-35b1-48d4-911b-2676d01ad86e" class="bulleted-list"><li style="list-style-type:disc">A language consists of an alphabet, lexis, syntax, and semantics.</li></ul><ul id="17a8b087-7323-452d-90d5-b0170e2ced90" class="bulleted-list"><li style="list-style-type:disc">IL is the alphabet of a machine language.</li></ul><ul id="5adc88ea-5e7e-4687-92bb-1c727c971671" class="bulleted-list"><li style="list-style-type:disc">High-level programming languages bridge the gap between human and machine languages.</li></ul><ul id="7378bb81-4d5c-4dbe-b8ca-cc307acc2c13" class="bulleted-list"><li style="list-style-type:disc">Programs written in high-level languages are called source code.</li></ul><p id="61e638ea-d1f1-40e4-922c-092e9c80924e" class=""><strong>Compilation vs. Interpretation:</strong></p><ul id="aaacf392-fca5-42b7-9f61-103c523e3144" class="bulleted-list"><li style="list-style-type:disc">Programming involves composing language elements to achieve a desired effect.</li></ul><ul id="38b977c6-5e76-4bd9-8d18-2480c9c23296" class="bulleted-list"><li style="list-style-type:disc">Correctness involves alphabetical, lexical, syntactical, and semantical aspects.</li></ul><ul id="1d55a8c4-cdba-4564-a743-2af65847eb5f" class="bulleted-list"><li style="list-style-type:disc">Programs need to be translated into machine language for execution.</li></ul><ul id="dc524714-cb21-4592-8ea8-cbffcbcc78db" class="bulleted-list"><li style="list-style-type:disc">Compilation and interpretation are two ways to transform high-level code into machine code.</li></ul><p id="b7c8eb1f-04aa-48a6-936c-c836d78467a9" class=""><strong>What Does the Interpreter Actually Do:</strong></p><ul id="7e8378d8-cda9-4943-bd24-c9e92b05afd8" class="bulleted-list"><li style="list-style-type:disc">The interpreter reads and executes the source code.</li></ul><ul id="f2a8d77e-75da-4e46-9cb2-03c5325c5f84" class="bulleted-list"><li style="list-style-type:disc">It checks for errors and provides error messages.</li></ul><ul id="5d8135ce-ad21-487e-bc0e-6bffb1647ce1" class="bulleted-list"><li style="list-style-type:disc">Execution occurs line by line, and some parts may execute multiple times.</li></ul><ul id="a84f3ea9-377a-40f2-bca7-5219e5895124" class="bulleted-list"><li style="list-style-type:disc">There is no definitive answer to whether compilation or interpretation is better; both have advantages and disadvantages.</li></ul><p id="7e442c97-50e8-4cff-9cf5-d43caa456045" class=""><strong>Python:</strong></p><ul id="f42918c3-8ac9-443a-853d-2d94bfb52de3" class="bulleted-list"><li style="list-style-type:disc">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.</li></ul><ul id="b5fe916c-1462-4071-ad79-c0adc8a3d69c" class="bulleted-list"><li style="list-style-type:disc">Named after Monty Python&#x27;s Flying Circus.</li></ul><ul id="ec91c7b4-18b8-4fe4-91ca-2d96a84fc929" class="bulleted-list"><li style="list-style-type:disc">Created by Guido van Rossum in 1989.</li></ul><ul id="7783beb0-eeaf-4579-928f-0b625dac9d06" class="bulleted-list"><li style="list-style-type:disc">Python&#x27;s goals include being easy to learn, open-source, understandable, and suitable for everyday tasks.</li></ul><p id="72633d07-ca4b-47e5-a37d-f6ac9a40dff5" class=""><strong>What Makes Python Special:</strong></p><ul id="56d892d8-e4a1-4c85-8a7a-e46cbee34c4a" class="bulleted-list"><li style="list-style-type:disc">Python is easy to learn, teach, use, and understand.</li></ul><ul id="0cb6c42e-c0e4-476c-b31a-56167e2a95d0" class="bulleted-list"><li style="list-style-type:disc">It&#x27;s widely used for web services, development tools, everyday applications, scientific research, and testing.</li></ul><ul id="3e12d20d-21b1-4efb-beeb-c2e8cd18b428" class="bulleted-list"><li style="list-style-type:disc">Python is not suitable for low-level programming and some mobile applications.</li></ul><p id="6475d6d8-6355-4482-bfd3-81be942431e2" class=""><strong>Python 2 vs. Python 3:</strong></p><ul id="21b25b6a-572b-430a-a2f4-6a75db30d808" class="bulleted-list"><li style="list-style-type:disc">Python 2 and Python 3 are two main versions of Python.</li></ul><ul id="76e38816-7331-40cf-9b00-e5b6d11dd3ba" class="bulleted-list"><li style="list-style-type:disc">Python 2 is older and still in use, but its development has stopped.</li></ul><ul id="ebf94c36-8b8d-42ff-8534-6a312d384ad1" class="bulleted-list"><li style="list-style-type:disc">Python 3 is the current version and the one recommended for new projects.</li></ul><ul id="6b0cbb7b-658a-4c17-84ef-538c787505a0" class="bulleted-list"><li style="list-style-type:disc">Python 2 and Python 3 are not compatible.</li></ul><p id="5a981b5e-2a02-4659-b058-be7eb8bbd992" class=""><strong>Python Implementations:</strong></p><ul id="bc2d22ca-34c1-4107-85a8-dd609d8079d2" class="bulleted-list"><li style="list-style-type:disc">CPython is the reference Python implementation and is maintained by the Python Software Foundation (PSF). - CPython is the main version of Python and is taken care of by the Python Software Foundation (PSF).</li></ul><ul id="e8fcaf10-defb-4d77-add7-35c5e6d14ecf" class="bulleted-list"><li style="list-style-type:disc">Cython translates Python code into C for improved performance.</li></ul><ul id="374fb3c3-e79f-4b04-8d8b-9cc79df061dc" class="bulleted-list"><li style="list-style-type:disc">Jython is Python for Java environments.</li></ul><ul id="4db6ffa8-fca4-4518-9fca-06453890fafb" class="bulleted-list"><li style="list-style-type:disc">PyPy is a Python implementation in Python-like language RPython.</li></ul><ul id="024052ce-20d6-4933-a8cc-c6b1b7f21d89" class="bulleted-list"><li style="list-style-type:disc">The course focuses on CPython.</li></ul>
+    </div>
+  </article>
+</div>
 
 <!-- Footer -->
 <footer class="w3-container w3-theme-dark w3-padding-16">

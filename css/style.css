@@ -2,13 +2,19 @@ body{
     margin: 0 auto;
 }
 
-.spacing {
+/* .spacing {
     margin-left: 20em;
-}
+} */
 .submit{
     padding-top: 5em;
     margin-bottom: 5em;
 }
 
+#container{
+    margin: 0 auto;
+    width: 900px;
+}
 
-
+.w3-third {
+    margin-bottom: 1.2rem;
+}
